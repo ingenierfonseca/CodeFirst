@@ -1,0 +1,5 @@
+c:\users\dell\documents\visual studio 2015\Projects\LogicalData.ECommerce\LogicalData.Class\bin\Debug\LogicalData.Class.dll
+c:\users\dell\documents\visual studio 2015\Projects\LogicalData.ECommerce\LogicalData.Class\bin\Debug\LogicalData.Class.pdb
+c:\users\dell\documents\visual studio 2015\Projects\LogicalData.ECommerce\LogicalData.Class\obj\Debug\LogicalData.Class.csprojResolveAssemblyReference.cache
+c:\users\dell\documents\visual studio 2015\Projects\LogicalData.ECommerce\LogicalData.Class\obj\Debug\LogicalData.Class.dll
+c:\users\dell\documents\visual studio 2015\Projects\LogicalData.ECommerce\LogicalData.Class\obj\Debug\LogicalData.Class.pdb

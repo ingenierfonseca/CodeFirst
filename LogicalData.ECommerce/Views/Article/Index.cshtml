@@ -1,0 +1,36 @@
+﻿@model IEnumerable<LogicalData.Class.Articulo>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<style type="text/css">
+    .action-link {
+        color:#FFFFFF;
+    }
+</style>
+<h2>Lista de Articulos</h2>
+
+<p>
+    @Html.ActionLink("Agregar Nuevo", "Create")
+</p>
+
+<div class="row">
+@foreach (var item in Model)
+{
+    var img = item.Imagen.IsEmpty() ? "Img/car-black.jpg" : item.Imagen;
+    <div class="col-xs-12 col-sm-3">
+         <div class="thumbnail"> 
+             <img class="img-responsive" src="@img" />
+             <div class="caption">
+                 <h3>@Html.DisplayFor(modelItem => item.Nombre)</h3>
+                 <h4>Disponible: @Html.DisplayFor(modelItem => item.Cantidad)</h4>
+                 <h4>Precio: $@Html.DisplayFor(modelItem => item.Precio)</h4>
+                 <p>@Html.DisplayFor(modelItem => item.Descripcion)</p>
+                 <button class="btn btn-info">@Html.ActionLink("Editar", "Edit", new { id = item.Id }, new { @class = "action-link" })</button>
+                 <button class="btn btn-primary">@Html.ActionLink("Agregar al carrito", "Create", "Car", new { id = item.Id }, new { @class = "action-link" })</button>
+             </div>
+         </div>
+   </div>
+}
+</div>

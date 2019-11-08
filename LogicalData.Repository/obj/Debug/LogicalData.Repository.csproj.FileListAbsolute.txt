@@ -1,0 +1,11 @@
+c:\users\dell\documents\visual studio 2015\Projects\LogicalData.ECommerce\LogicalData.Repository\bin\Debug\LogicalData.Repository.dll
+c:\users\dell\documents\visual studio 2015\Projects\LogicalData.ECommerce\LogicalData.Repository\bin\Debug\LogicalData.Repository.pdb
+c:\users\dell\documents\visual studio 2015\Projects\LogicalData.ECommerce\LogicalData.Repository\bin\Debug\EntityFramework.dll
+c:\users\dell\documents\visual studio 2015\Projects\LogicalData.ECommerce\LogicalData.Repository\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\dell\documents\visual studio 2015\Projects\LogicalData.ECommerce\LogicalData.Repository\bin\Debug\LogicalData.Class.dll
+c:\users\dell\documents\visual studio 2015\Projects\LogicalData.ECommerce\LogicalData.Repository\bin\Debug\LogicalData.Class.pdb
+c:\users\dell\documents\visual studio 2015\Projects\LogicalData.ECommerce\LogicalData.Repository\bin\Debug\EntityFramework.xml
+c:\users\dell\documents\visual studio 2015\Projects\LogicalData.ECommerce\LogicalData.Repository\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\dell\documents\visual studio 2015\Projects\LogicalData.ECommerce\LogicalData.Repository\obj\Debug\LogicalData.Repository.csprojResolveAssemblyReference.cache
+c:\users\dell\documents\visual studio 2015\Projects\LogicalData.ECommerce\LogicalData.Repository\obj\Debug\LogicalData.Repository.dll
+c:\users\dell\documents\visual studio 2015\Projects\LogicalData.ECommerce\LogicalData.Repository\obj\Debug\LogicalData.Repository.pdb

@@ -1,0 +1,61 @@
+﻿@model IEnumerable<LogicalData.Repository.DTO.DtoCar>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="media">
+    <div class="pull-left">
+        <img src="~/Img/car-black.jpg" width="100" />
+    </div>
+    <div class="media-body">
+        <h2>Carrito de Compras</h2>
+    </div>
+</div>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Articulo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cantidad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Precio)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SubTotal)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Articulo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cantidad)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Precio)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SubTotal)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+    <tr>
+        <td></td>
+        <td></td>
+        <td>Total:</td>
+        <td>@ViewBag.Total</td>
+    </tr>
+
+</table>
